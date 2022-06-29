@@ -1,0 +1,46 @@
+.TheGame{
+    position:relative;
+    width: 250px;
+    height: 305px;
+    background-color: #666;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    color: white;
+}
+.TheGame .header{
+    position: relative;
+    background-color: blue;
+    margin: 4px;
+    top: 5px;
+    padding: 10px;
+}
+.TheGame .header span{
+     margin: 0 10px 0 -5px ;
+     color: yellow;
+}
+.TheGame .sq{
+    position: relative;
+    background-color:#03a9f4;
+    width: 79px;
+    height: 80px;
+    margin: 2px;
+    top: 7px;
+    float: left;
+    transition: 1s;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+.TheGame .sq:hover{
+    background-color: blue;
+}
+.but{
+    background-color: #03a9f4;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 50%;
+    width: 139px;
+    border: 5px black solid;
+    outline: none;
+}
